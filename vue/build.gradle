@@ -1,0 +1,5 @@
+apply plugin: 'spring-boot'
+archivesBaseName = "vue"
+bootRun {
+    addResources = true
+}

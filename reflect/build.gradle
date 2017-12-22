@@ -1,0 +1,6 @@
+apply plugin: 'spring-boot'
+archivesBaseName = "reflect"
+dependencies{
+    //cglib动态代理依赖包
+    compile group: 'cglib', name: 'cglib', version: '3.2.5'
+}
