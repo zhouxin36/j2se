@@ -20,9 +20,9 @@ var app4 = new Vue({
     el: '#app-4',
     data: {
         todos: [
-            { text: '学习 JavaScript' },
-            { text: '学习 Vue' },
-            { text: "<p style='color: #00ee00;'>整个牛项目</p>" }
+            { text1: '学习 JavaScript' },
+            { text1: '学习 Vue' },
+            { text1: '<p style="color: aqua">整个牛项目 </p>' }
         ]
     }
 })
@@ -41,11 +41,16 @@ var app6 = new Vue({
     el: '#app-6',
     data: {
         message: 'Hello Vue!'
+    },
+    computed: {
+        reversedMessage: function () {
+            return this.message.split('').reverse().join('')
+        }
     }
 })
 Vue.component('todo-item', {
     props: ['todo'],
-    template: '<li>{{ <p v-html="todo.text"></p> }}</li>'
+    template: '<li style="color: aqua">{{todo.text}}</li>'
 })
 
 var app7 = new Vue({
@@ -57,5 +62,53 @@ var app7 = new Vue({
             { id: 2, text: '随便其它什么人吃的东西' }
         ],
         innerHTML: "<p style='color: #00ee00'>哈哈哈</p>"
+    }
+})
+
+var app8 = new Vue({
+    el:'#app-8',
+    data: {
+        op : 10
+    },
+    methods:{
+        choose: function () {
+            if(this.op == 10)
+                this.op = 8
+            else
+                this.op = 10
+        }
+    }
+})
+
+var vm = new Vue({
+    el: '#demo',
+    data: {
+        firstName: 'Foo',
+        lastName: 'Bar'
+        // fullName: 'Foo Bar'
+    },
+    // watch: {
+    //     firstName: function (val) {
+    //         console.log("---》"+val);
+    //         this.fullName = val + ' ' + this.lastName
+    //     },
+    //     lastName: function (val) {
+    //         console.log("《---》"+val);
+    //         this.fullName = this.firstName + ' ' + val
+    //     }
+    // },
+    computed: {
+        fullName: {
+            // getter
+            get: function () {
+                return this.firstName + ' ' + this.lastName
+            },
+            // setter
+            set: function (newValue) {
+                var names = newValue.split(' ')
+                this.firstName = names[0]
+                this.lastName = names[names.length - 1]
+            }
+        }
     }
 })
