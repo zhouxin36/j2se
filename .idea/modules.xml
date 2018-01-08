@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/QQ/QQ.iml" filepath="$PROJECT_DIR$/QQ/QQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socket/socket.iml" filepath="$PROJECT_DIR$/socket/socket.iml" />
       <module fileurl="file://$PROJECT_DIR$/j2se.iml" filepath="$PROJECT_DIR$/j2se.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java8/java8.iml" filepath="$PROJECT_DIR$/.idea/modules/java8/java8.iml" group="java8" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java8/java8_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java8/java8_main.iml" group="java8" />
