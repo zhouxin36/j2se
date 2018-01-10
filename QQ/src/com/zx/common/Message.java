@@ -1,14 +1,45 @@
 package com.zx.common;
 
+import java.io.Serializable;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Date;
+import java.util.List;
 
-public class Message {
+public class Message implements Serializable{
+    public static final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     String from;
     String to;
     String data;
     Date date;
+    boolean over;
+    List<String> online;
+    String offline;
+
+    public List<String> getOnline() {
+        return online;
+    }
+
+    public void setOnline(List<String> online) {
+        this.online = online;
+    }
+
+    public String getOffline() {
+        return offline;
+    }
+
+    public void setOffline(String offline) {
+        this.offline = offline;
+    }
+
+    public boolean isOver() {
+        return over;
+    }
+
+    public void setOver(boolean over) {
+        this.over = over;
+    }
 
     public Message() {
     }

@@ -8,10 +8,11 @@ import java.io.ObjectOutputStream;
 import java.net.Socket;
 
 public class MyQQClient {
+    public static Socket socket = null;
     public static boolean sendLogin(User user){
         boolean type = false;
         try {
-            Socket socket = new Socket("127.0.0.1", 9999);
+            socket = new Socket("127.0.0.1", 9999);
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
             objectOutputStream.writeObject(user);
 
@@ -20,7 +21,6 @@ public class MyQQClient {
             if(resultDTO.getCode() == 200){
                 type =true;
             }
-            socket.close();
         }catch (Exception e){
             e.printStackTrace();
         }

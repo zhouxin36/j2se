@@ -1,5 +1,6 @@
 package com.zx.client.view;
 
+import com.zx.client.model.ClientThread;
 import com.zx.client.model.MyQQClient;
 import com.zx.common.User;
 
