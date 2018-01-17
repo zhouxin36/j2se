@@ -1,0 +1,16 @@
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+##从库数量
+datasource_num: 2
+##单个从库中从表数量
+table_num: 2
+##主表名List
+table_names: t_order,t_order_item
+##主库名，从库名为主库名+0~datasource_num
+data_name: db
+##分表键
+table_key: user_id
+##分表策略截取id长度，分库从0-key_length,分表从key_length-end
+key_length: 4
+
