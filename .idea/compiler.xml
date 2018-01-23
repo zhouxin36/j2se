@@ -8,6 +8,8 @@
       <module name="reflect_test" target="1.8" />
       <module name="shardingjdbc_main" target="1.8" />
       <module name="shardingjdbc_test" target="1.8" />
+      <module name="sms_main" target="1.8" />
+      <module name="sms_test" target="1.8" />
       <module name="vue_main" target="1.8" />
       <module name="vue_test" target="1.8" />
     </bytecodeTargetLevel>

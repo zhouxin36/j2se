@@ -1,35 +1,30 @@
 package com.springcloud.shardingjdbc.config.algorithm;
 
+import com.springcloud.shardingjdbc.dto.SQLDataSourceDTO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class ShardingTableRule {
 
-    @Value("${datasource_num}")
-    private int DATASOURCE_NUM;
-
-    @Value("${table_num}")
-    private int TABLE_NUM;
-
-    @Value("${key_length}")
-    private int KEY_LENGTH;
+    @Autowired
+    private SQLDataSourceDTO sqlDataSourceDTO;
 
     /**
-     *获取UserID所在的分表
+     * 获取UserID所在的分表
      * 策略：截取后4位（转十进制） % 表个数  作为分表的后缀
+     *
      * @param userId 用户ID
      * @return
      */
     public int getTableId(String userId) {
-        String str = userId.replaceAll("-","");
-        String keyStr = str.substring(str.length()-KEY_LENGTH);
-        return Integer.parseInt(keyStr,16) % TABLE_NUM;
+        String keyStr = userId.substring(userId.length() - sqlDataSourceDTO.getKey_length());
+        return Integer.parseInt(keyStr, 16) % sqlDataSourceDTO.getTable_num();
     }
 
     public int getDataId(String userId) {
-        String str = userId.replaceAll("-","");
-        String keyStr = str.substring(0,KEY_LENGTH);
-        return Integer.parseInt(keyStr,16) % DATASOURCE_NUM;
+        String keyStr = userId.substring(0, sqlDataSourceDTO.getKey_length());
+        return Integer.parseInt(keyStr, 16) % sqlDataSourceDTO.getDatasource_num();
     }
 }
