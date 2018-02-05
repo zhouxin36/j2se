@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="drools_main" target="1.8" />
+      <module name="drools_test" target="1.8" />
       <module name="java8_main" target="1.8" />
       <module name="java8_test" target="1.8" />
       <module name="reflect_main" target="1.8" />
@@ -10,6 +12,8 @@
       <module name="shardingjdbc_test" target="1.8" />
       <module name="sms_main" target="1.8" />
       <module name="sms_test" target="1.8" />
+      <module name="transactionannotation_main" target="1.8" />
+      <module name="transactionannotation_test" target="1.8" />
       <module name="vue_main" target="1.8" />
       <module name="vue_test" target="1.8" />
     </bytecodeTargetLevel>

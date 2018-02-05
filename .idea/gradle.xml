@@ -10,9 +10,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/drools" />
             <option value="$PROJECT_DIR$/java8" />
             <option value="$PROJECT_DIR$/reflect" />
             <option value="$PROJECT_DIR$/shardingjdbc" />
+            <option value="$PROJECT_DIR$/transactionannotation" />
             <option value="$PROJECT_DIR$/vue" />
           </set>
         </option>

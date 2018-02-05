@@ -1,0 +1,10 @@
+package config;
+dialect  "mvel"
+
+import com.j2se.drools.bean.Applicant
+
+rule "valid"
+    when $a: Applicant(age < 18)
+    then $a.setValid(false);
+end
+

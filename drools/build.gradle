@@ -1,0 +1,8 @@
+apply plugin: 'spring-boot'
+archivesBaseName = "drools"
+repositories {
+    dependencies{
+        compile ('org.kie:kie-api:6.5.0.Final')
+        runtime ('org.drools:drools-compiler:6.5.0.Final')
+    }
+}

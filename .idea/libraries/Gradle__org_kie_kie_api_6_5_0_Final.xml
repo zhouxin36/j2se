@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.kie:kie-api:6.5.0.Final">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/kie/kie-api/6.5.0.Final/kie-api-6.5.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
