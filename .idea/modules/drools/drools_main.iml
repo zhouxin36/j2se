@@ -25,8 +25,8 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.drools:drools-compiler:6.5.0.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.hibernate:hibernate-validator:5.3.6.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.drools:drools-core:6.5.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.hibernate:hibernate-validator:5.3.6.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.kie:kie-internal:6.5.0.Final" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.10" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:4.3.13.RELEASE" level="project" />
@@ -44,12 +44,12 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.3.13.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:4.3.13.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-core:4.3.13.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.antlr:antlr-runtime:3.5" level="project" />
     <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:1.17" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.antlr:antlr-runtime:3.5" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.23" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.eclipse.jdt.core.compiler:ecj:4.4.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.mvel:mvel2:2.2.8.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.23" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.mvel:mvel2:2.2.8.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.23" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.thoughtworks.xstream:xstream:1.4.9" level="project" />
     <orderEntry type="library" name="Gradle: javax.validation:validation-api:1.1.0.Final" level="project" />

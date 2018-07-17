@@ -14,13 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/reflect/reflect.iml" filepath="$PROJECT_DIR$/.idea/modules/reflect/reflect.iml" group="reflect" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/reflect/reflect_main.iml" filepath="$PROJECT_DIR$/.idea/modules/reflect/reflect_main.iml" group="reflect" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/reflect/reflect_test.iml" filepath="$PROJECT_DIR$/.idea/modules/reflect/reflect_test.iml" group="reflect" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shardingjdbc/shardingjdbc.iml" filepath="$PROJECT_DIR$/.idea/modules/shardingjdbc/shardingjdbc.iml" group="shardingjdbc" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shardingjdbc/shardingjdbc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/shardingjdbc/shardingjdbc_main.iml" group="shardingjdbc" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shardingjdbc/shardingjdbc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/shardingjdbc/shardingjdbc_test.iml" group="shardingjdbc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shardingjdbc/shardingjdbc.iml" filepath="$PROJECT_DIR$/.idea/modules/shardingjdbc/shardingjdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/socket/socket.iml" filepath="$PROJECT_DIR$/socket/socket.iml" />
-      <module fileurl="file://$PROJECT_DIR$/transactionannotation/transactionannotation.iml" filepath="$PROJECT_DIR$/transactionannotation/transactionannotation.iml" group="transactionannotation" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactionannotation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/transactionannotation_main.iml" group="transactionannotation" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactionannotation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/transactionannotation_test.iml" group="transactionannotation" />
+      <module fileurl="file://$PROJECT_DIR$/transactionannotation/transactionannotation.iml" filepath="$PROJECT_DIR$/transactionannotation/transactionannotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/vue/vue.iml" filepath="$PROJECT_DIR$/.idea/modules/vue/vue.iml" group="vue" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/vue/vue_main.iml" filepath="$PROJECT_DIR$/.idea/modules/vue/vue_main.iml" group="vue" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/vue/vue_test.iml" filepath="$PROJECT_DIR$/.idea/modules/vue/vue_test.iml" group="vue" />

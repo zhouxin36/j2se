@@ -32,7 +32,10 @@ var app5 = new Vue({
         message: 'Hello Vue.js!'
     },
     methods: {
-        reverseMessage: function () {
+        reverseMessage: function (e) {
+            console.log($(e.target).attr("name"));
+            console.log($("#uiosfh").attr("name"));
+
             this.message = this.message.split('').reverse().join('')
         }
     }
@@ -110,5 +113,17 @@ var vm = new Vue({
                 this.lastName = names[names.length - 1]
             }
         }
+    }
+})
+
+var app9=new Vue({
+    el: 'app-9',
+    data: {
+        selected: 'A',
+        options: [
+            { text: 'One', value: 'A' },
+            { text: 'Two', value: 'B' },
+            { text: 'Three', value: 'C' }
+        ]
     }
 })

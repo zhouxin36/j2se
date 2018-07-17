@@ -33,7 +33,7 @@
 </div>
 <div id="app-5">
     <p>{{ message }}</p>
-    <button @click="reverseMessage">逆转消息</button>
+    <button id="uiosfh" name="zhouxin" @click="reverseMessage">逆转消息</button>
 </div>
 <div id="app-6">
     <p>{{ message }}</p>
@@ -59,6 +59,15 @@
     <button @click="op = 2 ">choose2</button>
 </div>
 <div id="demo">{{ fullName }}</div>
+
+<div id="app-9">
+<select v-model="selected">
+    <option v-for="option in options" :value="option.value">
+        {{ option.text }}
+    </option>
+</select>
+</div>
+<span>Selected: {{ selected }}</span>
 </body>
 <script type="application/javascript" src="js/main.js"></script>
 </html>
