@@ -1,0 +1,3 @@
+grant{
+    permission com.spring.java8.permissions.WordCheckPermission "sex,drugs,C++", "insert";
+};

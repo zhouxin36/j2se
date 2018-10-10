@@ -7,18 +7,20 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
+//@RunWith(SpringRunner.class)
+//@SpringBootTest
 public class test {
     private  static final Logger logger = LoggerFactory.getLogger(test.class);
 
-    private void 呵呵(){
-        logger.info("6666666");
+    @Test
+    public void contextLoads() throws Exception{
+
     }
 
-    @Test
-    public void contextLoads() {
-        呵呵();
+    public static void main(String[] args) throws Exception{
+        Class<?> aClass = Class.forName("PostTest.class");
+        ClassLoader classLoader = aClass.getClassLoader();
+        System.out.println(classLoader);
     }
 
 }
