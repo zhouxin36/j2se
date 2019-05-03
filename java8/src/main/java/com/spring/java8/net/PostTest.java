@@ -76,7 +76,7 @@ public class PostTest {
     }
 
     public static void main(String[] args) throws IOException{
-        String propsFilename = "E:/idea-project/j2se/java8/src/main/java/com/spring/java8/net/post.properties";
+        String propsFilename = "F:\\ideaproject\\j2se\\java8\\src\\main\\java\\com\\spring\\java8\\net\\post.properties";
         Properties props = new Properties();
         try(InputStream in = Files.newInputStream(Paths.get(propsFilename))){
             props.load(in);

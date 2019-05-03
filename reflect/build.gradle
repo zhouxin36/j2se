@@ -1,4 +1,4 @@
-apply plugin: 'spring-boot'
+apply plugin: 'org.springframework.boot'
 archivesBaseName = "reflect"
 dependencies{
     //cglib动态代理依赖包

@@ -1,2 +1,2 @@
-apply plugin: 'spring-boot'
+apply plugin: 'org.springframework.boot'
 archivesBaseName = "java8"

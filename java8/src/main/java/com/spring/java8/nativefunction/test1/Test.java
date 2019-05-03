@@ -1,6 +1,7 @@
 package com.spring.java8.nativefunction.test1;
 
 /**
+ * -Djava.library.path=F:\ideaproject\j2se\java8\src\main\java\com\spring\java8\nativefunction\test1
  * hello world
  */
 public class Test {
